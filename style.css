@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lexend', sans-serif;
+    text-align: start;
+}
+
+/* Logo Coreplan */
+.logo {
+    width: 100%;
+    max-width: 300px;
+    display: flex;
+    justify-content: start;
+    margin: 3em 5.5em;
+}
+
+/* Section */
+
+.container {
+    display: flex;
+    flex-direction: row;
+    margin-right: 4em;
+}
+
+/* Mensagens de erro */
+
+#content {
+    margin: 3em 0 0 7em;
+}
+
+#title {
+    font-size: 2.7em;
+    margin-bottom: 0.5em;
+    color: #2196F3;
+}
+
+#subtitle {
+    font-size: 1.25em;
+}
+
+/* Botão Suporte */
+
+.btn {
+    border: none;
+    font-size: 1.3em;
+    margin-top: 2em;
+    background-color: #2196F3;
+    padding: 1em 1em;
+    border-radius: 0.9em;
+    color: white;
+    text-decoration: none;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0.4em 0.8em rgba(0, 0, 0, 0.3);
+}
+
+#contact {
+    padding: 6em 0;
+}
+
+/* Imagem lateral */
+
+#image {
+    margin-top: -3em;
+}
+
+/* Lateral azul */
+
+.footer-color {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 4em;
+    height: 100%;
+    background-color: #2196F3;
+}
+
+/* Estilos responsivos para dispositivos com largura de tela menor que 768 pixels */
+@media screen and (max-width: 724px) {
+
+    #image {
+      display: none;
+    }
+  }
